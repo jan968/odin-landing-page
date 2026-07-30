@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 1rem;
+}
+
+.container {
+    width: min(100% - 32px, 1200px);
+    margin: 0 auto;
+}
+
+.navbar-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #d9d9d9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+}
+
+.nav a:hover {
+  color: #3882f6;
+}
+
+.logo {
+    width: 160px;
+    transform: rotate(270deg);
+    aspect-ratio: 12/9;
+}
