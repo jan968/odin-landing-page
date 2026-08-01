@@ -12,6 +12,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
     background-color: #1F2937;
     position: sticky;
@@ -50,13 +56,13 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.nav a:hover {
+.nav a:hover,
+footer a:hover {
   color: #3882f6;
 }
 
 .logo {
     width: 120px;
-    aspect-ratio: 12/9;
     margin-left: -24px;
     transition: transform 0.25s ease, opacity 0.25s ease;
 }
@@ -105,7 +111,7 @@ body {
 .hero-image {
     width: 100%;
     border-radius: 10px;
-    aspect-ratio: 15.6/9;
+    aspect-ratio: 15.5/9;
     object-fit: cover;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
@@ -275,4 +281,44 @@ h1 {
   height: 80px;
   margin-bottom: -1px;
   background-color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 3rem 0 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info p {
+    color: #b9b9b9;
+    font-size: 1.125rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
+}
+
+.footer-links li {
+    list-style-type: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.2s ease;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
 }
