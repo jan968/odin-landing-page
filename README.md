@@ -1,5 +1,9 @@
 # Landing Page
 
+## Live Preview
+
+[View the live website](https://jan968.github.io/odin-landing-page/)
+
 This project was made as part of the [Landing Page assignment](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project.
 
 The task was to recreate a webpage from a provided design using HTML and CSS. I kept the main structure, but I changed the content and added my own style instead of making it look exactly the same.
