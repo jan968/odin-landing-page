@@ -283,6 +283,54 @@ h1 {
   background-color: white;
 }
 
+.cta-section {
+    padding: 6rem 0 7rem;
+}
+
+.cta-content {
+    background-color: rgb(56, 130, 246);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.cta-content a {
+    display: inline-block;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.4rem 2rem;
+    border-radius: 6px;
+      transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.cta-content a:hover {
+ background-color: white;
+  color: #3882f6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.cta-text p {
+    color: #c0d0e7;
+}
+
 footer {
     background-color: #1F2937;
     color: #fff;
